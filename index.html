@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pampered Paws Palace: Where Dog Lovers Unite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐶 Pampered Paws Palace: Where Dog Lovers Unite 🐾</h1>
+    </header>
+
+    <main>
+        <!-- Ordered List with Roman Numerals -->
+        <section>
+            <h2>Dog Lover's Checklist</h2>
+            <ol type="i">
+                <li>Understanding Different Dog Breeds</li>
+                <li>Puppy Care and Training</li>
+                <li>Dog Health and Wellness</li>
+                <li>Adoption and Rescue</li>
+                <li>Community and Support</li>
+            </ol>
+        </section>
+
+        <!-- External Image of Dogs -->
+        <section>
+            <h2>Adorable Puppy Moments</h2>
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" 
+                 alt="Cute puppies playing together" 
+                 width="600" 
+                 height="400">
+        </section>
+
+        <!-- Multimedia Elements -->
+        <section>
+            <h2>Puppy Videos</h2>
+            <iframe width="600" height="350" 
+                    src="https://www.youtube.com/embed/uYJQIKAVBw8" 
+                    title="Puppy Video" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+            <p>🔊Listen to a pack of Alaskan Huskies barking and whimpering:</p>
+            <audio controls>
+                <source src="/Sound/577651__tieswijnen__alaskan-huskies.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- Popular Dog Breeds Table -->
+        <section>
+            <h2>Popular Dog Breeds Contact Directory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Breed</th>
+                        <th>Origin</th>
+                        <th>Average Size</th>
+                        <th>Breed Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Labrador Retriever</td>
+                        <td>Canada</td>
+                        <td>Small to Large</td>
+                        <td>labrador.paws@pampered_pawspalace.com</td>
+                    </tr>
+                    <tr>
+                        <td>German Shepherd</td>
+                        <td>Germany</td>
+                        <td>Large</td>
+                        <td>shepherd.paws@pampered_pawspalace.com</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Retriever</td>
+                        <td>Scotland</td>
+                        <td>Medium to Large</td>
+                        <td>golden.paws@pampered_pawspalace.com</td>
+                    </tr>
+                    <tr>
+                        <td>French Bulldog</td>
+                        <td>France</td>
+                        <td>Small</td>
+                        <td>frenchie.paws@pampered_pawspalace.com</td>
+                    </tr>
+                    <tr>
+                        <td>Beagle</td>
+                        <td>United Kingdom</td>
+                        <td>Small to Medium</td>
+                        <td>beagle.paws@pampered_pawspalace.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Dog Lover Registration Form -->
+        <section>
+            <h2>Fancy a Dog & Pur-ppies? Join the Community</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Dog Lover Details</legend>
+                    
+                    <label for="fullname">Dog Parent Name:</label>
+                    <input type="text" 
+                           id="fullname" 
+                           name="fullname" 
+                           placeholder="Enter your name" 
+                           required 
+                           minlength="2" 
+                           maxlength="50">
+                    
+                    <label for="email">Contact Email:</label>
+                    <input type="email" 
+                           id="email" 
+                           name="email" 
+                           placeholder="Enter your email" 
+                           required 
+                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    
+                    <label for="password">Community Password:</label>
+                    <input type="password" 
+                           id="password" 
+                           name="password" 
+                           placeholder="Create a password" 
+                           required 
+                           minlength="8">
+                    
+                    <label for="dob">Date of First Dog Adoption:</label>
+                    <input type="date" 
+                           id="dob" 
+                           name="dob" 
+                           required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dog Lover Preferences</legend>
+                    
+                    <label for="dogtype">Preferred Dog Size:</label>
+                    <select id="dogtype" name="dogtype" required>
+                        <option value="">Select Dog Size</option>
+                        <option value="small">Small Breed</option>
+                        <option value="medium">Medium Breed</option>
+                        <option value="large">Large Breed</option>
+                        <option value="giant">Giant Breed</option>
+                    </select>
+                    
+                    <div class="radio-group">
+                        <label>Dog Owner Status:</label>
+                        <label>
+                            <input type="radio" id="current" name="ownerstatus" value="current" required>
+                            Current Dog Owner
+                        </label>
+                        <label>
+                            <input type="radio" id="future" name="ownerstatus" value="future">
+                            Future Dog Owner
+                        </label>
+                        <label>
+                            <input type="radio" id="interested" name="ownerstatus" value="interested">
+                            Dog Enthusiast
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <label>Dog-Related Interests:</label>
+                        <label>
+                            <input type="checkbox" id="training" name="interests" value="training">
+                            Dog Training
+                        </label>
+                        <label>
+                            <input type="checkbox" id="rescue" name="interests" value="rescue">
+                            Rescue & Adoption
+                        </label>
+                        <label>
+                            <input type="checkbox" id="health" name="interests" value="health">
+                            Canine Health
+                        </label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Join Dog Community</button>
+                <button type="reset">Reset Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>🐾 © 2025 Pampered Paw Palace. Woof-tastic experiences await! 🐶</p>
+    </footer>
+</body>
+</html>
